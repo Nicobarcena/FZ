@@ -1,6 +1,6 @@
 .nav-lista{
     display: flex;
-    height: 75px;
+    height: 65px;
     width: 100%;
     position: fixed;
     justify-content: space-around;

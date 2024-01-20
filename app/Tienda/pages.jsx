@@ -1,9 +1,5 @@
-import React from 'react'
-
-const Tienda = () => {
+export default function tienda (){
   return (
-    <h1>Tiendaaaa</h1>
+      <h1>Hoaaaaaas</h1>
   )
 }
-
-export default Tienda

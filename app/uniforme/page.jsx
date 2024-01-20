@@ -1,9 +1,9 @@
 import React from 'react'
 
-const uniformes  = () => {
+const uniforme  = () => {
   return (
     <h1>Uniformes</h1>
   )
 }
 
-export default uniformes 
+export default uniforme

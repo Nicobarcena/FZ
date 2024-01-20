@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import "./Nav.css"
 const Nav = () => {
@@ -6,19 +7,19 @@ const Nav = () => {
             <ul className='nav-lista'>
                 <p className='f'>Foja Zero</p>
                 <li className='nav-item'>
-                    <a href="#" className='nav-link'>Inico</a>
+                    <Link href="./" className='nav-link'>Inico</Link>
                 </li>
                 <li className='nav-item'>
-                    <a href="#" className='nav-link'>Tienda</a>
+                    <Link href="./tienda" className='nav-link'>Tienda</Link>
                 </li>
                 <li className='nav-item'>
-                    <a href="#" className='nav-link'>Quienes Somos</a>
+                    <Link href="./quienesomos" className='nav-link'>Quienes Somos</Link>
                 </li>
                 <li className='nav-item'>
-                    <a href="#" className='nav-link'>Uniformes</a>
+                    <Link href="./uniforme" className='nav-link'>Uniformes</Link>
                 </li>
                 <li className='nav-item'>
-                    <a href="#" className='nav-link'>Contacto</a>
+                    <Link href="contacto" className='nav-link'>Contacto</Link>
                 </li>
             </ul>
         </nav>

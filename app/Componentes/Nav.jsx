@@ -11,7 +11,7 @@ const Nav = () => {
 
   return (
       <nav className='nav-lista'>
-    <p>Foja Zero</p>
+    <p className='f'>Foja Zero</p>
       <ul  className={`menu ${isMenuOpen ? 'open' : ''}`}>
         <li>
           <Link href="/">Inico</Link>
